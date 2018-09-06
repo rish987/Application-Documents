@@ -1,0 +1,14 @@
+.*.sw*
+*.pyc
+temp*
+*/__pycache__/*
+*/en
+*.aux
+*.out
+*.log
+*.nav
+*.snm
+*.toc
+*.synctex.gz
+*.bbl
+*.blg

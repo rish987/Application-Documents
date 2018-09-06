@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+
+% Increase text height
+\textheight=700pt
+
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{hyperref}
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Rishikesh Hirendu Vaishnav (Rish)}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+% Simulate as if there are 7 lines of address
+\address
+{
+	\\
+	Home Address: 45 Las Quebradas Lane, Alamo, California 94507\\
+	Phone Number: (925) 389-2481\\
+	Email Address:\href{mailto:rishhvaishnav@gmail.com}
+		{rishhvaishnav@gmail.com}\\
+    Github: \url{https://github.com/rish987}\\
+}
+% Hence the photo would take 7 lines/rows
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{EDUCATION}
+\textbf{University of California, San Diego}; San Diego, California\\
+Bachelor of Science, Computer Engineering; December 2018 (expected)\hfill 
+GPA: 3.94
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\section{RELATED\\COURSEWORK}
+%\par
+%\textbf{Project One}: 
+%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper 
+%vulputate vestibulum. Pellentesque viverra orci vitae dolor ultrices, eu semper 
+%ex blandit. 
+%
+%\par
+%\textbf{Project Two}:
+%Nunc quis diam non sem tempus ornare. Nullam eleifend ligula varius 
+%elementum pharetra. Donec fringilla quis mauris quis tristique. Vestibulum ac 
+%accumsan quam, a semper mauris. 
+
+% TODO fill out related coursework
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{COMPUTER\\SKILLS}
+
+\textbf{Languages}: 
+Proficient with Java, Python, \LaTeX.
+Experience with C, C++, Javascript, BASH, Matlab, SQL.
+\\
+\textbf{Libraries}: 
+Proficient with PyTorch, TensorFlow, CUDA, NumPy.
+\\
+\textbf{Applications}: Vi/Vim, IntelliJ IDEA, Eclipse, Git, MySQL. 
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+\employer{Department for the Regulation and Control of Magical Creatures}
+\location{Location One}
+\dates{Dates One}
+\title{\textbf{Junior Officer}}
+\begin{position}
+Vivamus ullamcorper a lacus non laoreet. Etiam ultricies in est quis finibus. 
+Curabitur posuere est quis felis sodales, vitae aliquam ex consequat. In non 
+magna felis.
+\end{position}
+
+\employer{Employer One}
+\location{Location One}
+\dates{Dates One}
+\title{\textbf{Title One}}
+\begin{position}
+Donec venenatis volutpat tortor, quis fringilla turpis ornare et. Curabitur 
+neque enim, facilisis vitae lacus non, malesuada volutpat tortor. Etiam 
+elementum neque nibh, ac faucibus ligula tempor vel. Pellentesque a pharetra 
+neque, vel facilisis nunc.
+\end{position}
+
+\employer{Employer One}
+\location{Location One}
+\dates{Dates One}
+\title{\textbf{Title One}}
+\begin{position}
+Mauris lacinia tellus vel elit lobortis, ut convallis tellus euismod. Praesent 
+sagittis magna non nisl rutrum, dapibus mollis ante commodo. Donec scelerisque 
+velit a consequat vehicula. Nam eget dignissim est, et varius arcu. Vivamus eu 
+lacus feugiat, ullamcorper odio ut, blandit enim. Suspendisse potenti. 
+Vestibulum auctor purus et massa luctus, quis cursus mauris laoreet. Praesent 
+luctus dictum justo vitae dictum.
+\end{position}
+%-------------------------------------------------------------------------------
+%	Interests
+%-------------------------------------------------------------------------------
+\section{INTERESTS}
+Interest One, Interest Two, Interest Three, Interest Four, ...Et Cetera.
+%-------------------------------------------------------------------------------
+\end{resume}
+\end{document}
